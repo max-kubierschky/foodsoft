@@ -50,7 +50,7 @@ module GroupOrdersHelper
       return 'missing-few';
     elsif ( quantity_missing == 0 )
       if ( ordering_data[:others_tolerance] > 0 and ordering_data[:quantity] == 0 )
-        return "missing-none-with-tolerance debug-#{ordering_data[:quantity]}"
+        return 'available'
       else
         return ''
       end

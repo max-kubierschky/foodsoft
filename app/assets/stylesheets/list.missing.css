@@ -1,4 +1,4 @@
-.list .missing-none-with-tolerance td {
+.list .available td, .list .available:hover td {
 	background-color: #eeeeff;
 }
 
